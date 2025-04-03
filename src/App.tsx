@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AuthProvider } from './components/contexts/AuthContext';
 import Login from './pages/loginPages/login';
 import AuthGuard from "./guards/AuthGuard";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
